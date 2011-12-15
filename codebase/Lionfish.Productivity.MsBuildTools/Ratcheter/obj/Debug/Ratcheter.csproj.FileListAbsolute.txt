@@ -1,0 +1,16 @@
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratchet\bin\Debug\Ratcheter.dll
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratchet\bin\Debug\Ratcheter.pdb
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratchet\bin\Debug\Autofac.Configuration.dll
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratchet\bin\Debug\Autofac.dll
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratchet\bin\Debug\Autofac.xml
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratchet\obj\Debug\ResolveAssemblyReference.cache
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratchet\obj\Debug\Ratcheter.dll
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratchet\obj\Debug\Ratcheter.pdb
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratcheter\bin\Debug\Ratcheter.dll
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratcheter\bin\Debug\Ratcheter.pdb
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratcheter\bin\Debug\Autofac.Configuration.dll
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratcheter\bin\Debug\Autofac.dll
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratcheter\bin\Debug\Autofac.xml
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratcheter\obj\Debug\ResolveAssemblyReference.cache
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratcheter\obj\Debug\Ratcheter.dll
+C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratcheter\obj\Debug\Ratcheter.pdb

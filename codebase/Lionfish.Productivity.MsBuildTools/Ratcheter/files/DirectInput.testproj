@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="test" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask TaskName="Ratchet" AssemblyFile ="C:\priv_project\Lionfish.Productivity.MsBuildTools\Ratcheter\bin\Debug\Ratcheter.dll"/>
+
+  <Target Name="test">
+    <Ratchet Direction="towardsZero" CurrentValue="4" TargetValue="5" WarningValue="1" RatchetValue="0" InputType="direct"/>
+  </Target>
+  
+</Project>

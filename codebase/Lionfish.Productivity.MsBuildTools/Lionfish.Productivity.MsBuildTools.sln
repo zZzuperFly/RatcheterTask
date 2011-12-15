@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratcheter", "Ratcheter\Ratcheter.csproj", "{B560A64D-2A60-41B9-9B05-38995BAAF168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatcheterTests", "RatcheterTests\RatcheterTests.csproj", "{6DBDC5C3-D908-42B0-BE43-0F9C691A3B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatcheterSpecifications", "RatcheterSpecifications\RatcheterSpecifications.csproj", "{3936CFAA-5E2C-4691-9E04-FF62181ED0A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B560A64D-2A60-41B9-9B05-38995BAAF168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B560A64D-2A60-41B9-9B05-38995BAAF168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B560A64D-2A60-41B9-9B05-38995BAAF168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B560A64D-2A60-41B9-9B05-38995BAAF168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBDC5C3-D908-42B0-BE43-0F9C691A3B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBDC5C3-D908-42B0-BE43-0F9C691A3B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBDC5C3-D908-42B0-BE43-0F9C691A3B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBDC5C3-D908-42B0-BE43-0F9C691A3B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3936CFAA-5E2C-4691-9E04-FF62181ED0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3936CFAA-5E2C-4691-9E04-FF62181ED0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3936CFAA-5E2C-4691-9E04-FF62181ED0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3936CFAA-5E2C-4691-9E04-FF62181ED0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

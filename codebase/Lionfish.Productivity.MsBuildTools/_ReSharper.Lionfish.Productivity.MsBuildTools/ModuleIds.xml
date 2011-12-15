@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="B560A64D-2A60-41B9-9B05-38995BAAF168" ModuleId="Ratchet" />
+  <Module PersistentId="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" ModuleId="RatcheterTests" />
+  <Module PersistentId="3936CFAA-5E2C-4691-9E04-FF62181ED0A8" ModuleId="RatcheterSpecifications" />
+  <Module PersistentId="Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="Microsoft.Build.Framework" />
+</Modules>

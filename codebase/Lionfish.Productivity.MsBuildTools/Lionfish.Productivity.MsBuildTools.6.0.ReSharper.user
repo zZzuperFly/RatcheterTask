@@ -1,0 +1,301 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/d:Properties/f:AssemblyInfo.cs" caret="619" fromTop="15" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/d:Properties/f:AssemblyInfo.cs" caret="733" fromTop="17" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:Simple.feature" caret="379" fromTop="12" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleWarning.feature" caret="23" fromTop="0" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleRatchet.feature" caret="25" fromTop="0" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleFailure.feature" caret="24" fromTop="0" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:Simple.feature.cs" caret="0" fromTop="0" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/d:files/f:TestFile.xml" caret="0" fromTop="0" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:LogProxy.cs" caret="500" fromTop="6" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="2054" fromTop="4" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="605" fromTop="23" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="4190" fromTop="5" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="0" fromTop="0" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:VerifyerTests.cs" caret="0" fromTop="0" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:RatchetTests.cs" caret="0" fromTop="0" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParaneterTests.cs" caret="430" fromTop="20" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleRatchet.feature" caret="0" fromTop="0" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleRatchet.feature" caret="480" fromTop="32" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleWarning.feature" caret="457" fromTop="25" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleWarning.feature" caret="182" fromTop="5" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleFailure.feature" caret="386" fromTop="17" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleFailure.feature" caret="320" fromTop="8" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:Simple.feature" caret="379" fromTop="12" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleFailure.feature" caret="24" fromTop="0" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleRatchet.feature" caret="25" fromTop="0" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleWarning.feature" caret="23" fromTop="0" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="1160" fromTop="8" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="1124" fromTop="19" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="495" fromTop="7" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="755" fromTop="14" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="1579" fromTop="39" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="1370" fromTop="32" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="3773" fromTop="23" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="4179" fromTop="37" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="3578" fromTop="4" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="3275" fromTop="41" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="587" fromTop="21" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="2288" fromTop="15" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:RatchetTests.cs" caret="1368" fromTop="29" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParaneterTests.cs" caret="430" fromTop="15" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="228" fromTop="13" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="230" fromTop="14" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="563" fromTop="22" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="0" fromTop="0" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParaneterTests.cs" caret="266" fromTop="16" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParaneterTests.cs" caret="0" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.7\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <UnitTestSessions>
+    <Session>
+      <Name>Session #1</Name>
+      <Elements>
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.CheckerTests" type="NUnitTestFixtureElement" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.RatchetTests" type="NUnitTestFixtureElement" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterSpecifications.SimpleExampleFeature" type="NUnitTestFixtureElement" Project="3936CFAA-5E2C-4691-9E04-FF62181ED0A8" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterSpecifications.SimpleFailureExampleFeature" type="NUnitTestFixtureElement" Project="3936CFAA-5E2C-4691-9E04-FF62181ED0A8" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterSpecifications.SimpleRatchetnExampleFeature" type="NUnitTestFixtureElement" Project="3936CFAA-5E2C-4691-9E04-FF62181ED0A8" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterSpecifications.SimpleWarningExampleFeature" type="NUnitTestFixtureElement" Project="3936CFAA-5E2C-4691-9E04-FF62181ED0A8" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.VerifyerTests" type="NUnitTestFixtureElement" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.RatchetTests.ARatchetShouldGoEitherTowardsZeroOrTowardsHundred" ParentId="RatcheterTests.RatchetTests" type="NUnitTestElement" TypeName="RatcheterTests.RatchetTests" MethodName="ARatchetShouldGoEitherTowardsZeroOrTowardsHundred" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.VerifyerTests.CheckDirectInputLogsAsFailIfCurrentValueIsHigherThanTargetAndDirectionTowardsZero" ParentId="RatcheterTests.VerifyerTests" type="NUnitTestElement" TypeName="RatcheterTests.VerifyerTests" MethodName="CheckDirectInputLogsAsFailIfCurrentValueIsHigherThanTargetAndDirectionTowardsZero" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.VerifyerTests.CheckDirectInputLogsAsFailIfCurrentValueIslowerThanTargetAndDirectionTowardsHundred" ParentId="RatcheterTests.VerifyerTests" type="NUnitTestElement" TypeName="RatcheterTests.VerifyerTests" MethodName="CheckDirectInputLogsAsFailIfCurrentValueIslowerThanTargetAndDirectionTowardsHundred" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.VerifyerTests.CheckDirectInputLogsAsSuccessIfCurrentValueIsHigherThanTargetbutnotWarningAndDirectionTowardsHundred" ParentId="RatcheterTests.VerifyerTests" type="NUnitTestElement" TypeName="RatcheterTests.VerifyerTests" MethodName="CheckDirectInputLogsAsSuccessIfCurrentValueIsHigherThanTargetbutnotWarningAndDirectionTowardsHundred" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.VerifyerTests.CheckDirectInputLogsAsSuccessIfCurrentValueIsHigherThanTargetPlusWarningAndDirectionTowardsHundred" ParentId="RatcheterTests.VerifyerTests" type="NUnitTestElement" TypeName="RatcheterTests.VerifyerTests" MethodName="CheckDirectInputLogsAsSuccessIfCurrentValueIsHigherThanTargetPlusWarningAndDirectionTowardsHundred" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.VerifyerTests.CheckDirectInputLogsAsSuccessIfCurrentValueIslowerThanTargetbutnotWarningAndDirectionTowardsZero" ParentId="RatcheterTests.VerifyerTests" type="NUnitTestElement" TypeName="RatcheterTests.VerifyerTests" MethodName="CheckDirectInputLogsAsSuccessIfCurrentValueIslowerThanTargetbutnotWarningAndDirectionTowardsZero" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.VerifyerTests.CheckDirectInputLogsAsSuccessIfCurrentValueIslowerThanTargetPlusWarningAndDirectionTowardsZero" ParentId="RatcheterTests.VerifyerTests" type="NUnitTestElement" TypeName="RatcheterTests.VerifyerTests" MethodName="CheckDirectInputLogsAsSuccessIfCurrentValueIslowerThanTargetPlusWarningAndDirectionTowardsZero" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.RatchetTests.CurrentvalueAndTargetValueIsNeeded" ParentId="RatcheterTests.RatchetTests" type="NUnitTestElement" TypeName="RatcheterTests.RatchetTests" MethodName="CurrentvalueAndTargetValueIsNeeded" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterSpecifications.SimpleFailureExampleFeature.CurrentValueIsHigherThanTarget" ParentId="RatcheterSpecifications.SimpleFailureExampleFeature" type="NUnitTestElement" TypeName="RatcheterSpecifications.SimpleFailureExampleFeature" MethodName="CurrentValueIsHigherThanTarget" Project="3936CFAA-5E2C-4691-9E04-FF62181ED0A8" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterSpecifications.SimpleExampleFeature.CurrentValueIsLowerThanTarget" ParentId="RatcheterSpecifications.SimpleExampleFeature" type="NUnitTestElement" TypeName="RatcheterSpecifications.SimpleExampleFeature" MethodName="CurrentValueIsLowerThanTarget" Project="3936CFAA-5E2C-4691-9E04-FF62181ED0A8" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterSpecifications.SimpleRatchetnExampleFeature.CurrentValueIsLowerThanTargetAndIsRatcheted" ParentId="RatcheterSpecifications.SimpleRatchetnExampleFeature" type="NUnitTestElement" TypeName="RatcheterSpecifications.SimpleRatchetnExampleFeature" MethodName="CurrentValueIsLowerThanTargetAndIsRatcheted" Project="3936CFAA-5E2C-4691-9E04-FF62181ED0A8" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterSpecifications.SimpleWarningExampleFeature.CurrentValueIsLowerThanTargetButWithinWarning" ParentId="RatcheterSpecifications.SimpleWarningExampleFeature" type="NUnitTestElement" TypeName="RatcheterSpecifications.SimpleWarningExampleFeature" MethodName="CurrentValueIsLowerThanTargetButWithinWarning" Project="3936CFAA-5E2C-4691-9E04-FF62181ED0A8" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.VerifyerTests.DirectionAndLoggerIsKnownAndDirectionClassIsChosen" ParentId="RatcheterTests.VerifyerTests" type="NUnitTestElement" TypeName="RatcheterTests.VerifyerTests" MethodName="DirectionAndLoggerIsKnownAndDirectionClassIsChosen" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.RatchetTests.InputTypeCanBeSet" ParentId="RatcheterTests.RatchetTests" type="NUnitTestElement" TypeName="RatcheterTests.RatchetTests" MethodName="InputTypeCanBeSet" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.RatchetTests.MyRatchetValueReturnZeroWhenInputIsEmpty" ParentId="RatcheterTests.RatchetTests" type="NUnitTestElement" TypeName="RatcheterTests.RatchetTests" MethodName="MyRatchetValueReturnZeroWhenInputIsEmpty" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.RatchetTests.MyWarningValueReturnZeroWhenInputIsEmpty" ParentId="RatcheterTests.RatchetTests" type="NUnitTestElement" TypeName="RatcheterTests.RatchetTests" MethodName="MyWarningValueReturnZeroWhenInputIsEmpty" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.RatchetTests.RatchetValueCanBeSet" ParentId="RatcheterTests.RatchetTests" type="NUnitTestElement" TypeName="RatcheterTests.RatchetTests" MethodName="RatchetValueCanBeSet" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.RatchetTests.TheLoggerCanBeFaked" ParentId="RatcheterTests.RatchetTests" type="NUnitTestElement" TypeName="RatcheterTests.RatchetTests" MethodName="TheLoggerCanBeFaked" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.CheckerTests.TowardsHUndredAndCheckerReturnsTrueIfCurrentIsEqualToTarget" ParentId="RatcheterTests.CheckerTests" type="NUnitTestElement" TypeName="RatcheterTests.CheckerTests" MethodName="TowardsHUndredAndCheckerReturnsTrueIfCurrentIsEqualToTarget" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.CheckerTests.TowardsHUndredAndCheckerReturnsTrueIfCurrentIsHigherThanTarget" ParentId="RatcheterTests.CheckerTests" type="NUnitTestElement" TypeName="RatcheterTests.CheckerTests" MethodName="TowardsHUndredAndCheckerReturnsTrueIfCurrentIsHigherThanTarget" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.CheckerTests.TowardsHundredCheckerReturnsfalseIfcurrentIsLessThanTargetplusWarning" ParentId="RatcheterTests.CheckerTests" type="NUnitTestElement" TypeName="RatcheterTests.CheckerTests" MethodName="TowardsHundredCheckerReturnsfalseIfcurrentIsLessThanTargetplusWarning" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.CheckerTests.TowardsHundredCheckerReturnsTrueIfcurrentIsmorehanTargetplusWarning" ParentId="RatcheterTests.CheckerTests" type="NUnitTestElement" TypeName="RatcheterTests.CheckerTests" MethodName="TowardsHundredCheckerReturnsTrueIfcurrentIsmorehanTargetplusWarning" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.CheckerTests.TowardsZeroCheckerReturnsfalseIfcurrentIsMoreThanTargetMinusWarning" ParentId="RatcheterTests.CheckerTests" type="NUnitTestElement" TypeName="RatcheterTests.CheckerTests" MethodName="TowardsZeroCheckerReturnsfalseIfcurrentIsMoreThanTargetMinusWarning" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.CheckerTests.TowardsZeroCheckerReturnsTrueIfcurrentIsLessThanTargetMinusWarning" ParentId="RatcheterTests.CheckerTests" type="NUnitTestElement" TypeName="RatcheterTests.CheckerTests" MethodName="TowardsZeroCheckerReturnsTrueIfcurrentIsLessThanTargetMinusWarning" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.CheckerTests.TowardsZeroCheckerreturnsTrueWhenCurrentIsEqualToTarget" ParentId="RatcheterTests.CheckerTests" type="NUnitTestElement" TypeName="RatcheterTests.CheckerTests" MethodName="TowardsZeroCheckerreturnsTrueWhenCurrentIsEqualToTarget" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.CheckerTests.TowardsZeroCheckerreturnsTrueWhenCurrentIsLowerThanTarget" ParentId="RatcheterTests.CheckerTests" type="NUnitTestElement" TypeName="RatcheterTests.CheckerTests" MethodName="TowardsZeroCheckerreturnsTrueWhenCurrentIsLowerThanTarget" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+        <UnitTestElement Provider="nUnit" Id="RatcheterTests.RatchetTests.WarningValueCanBeSet" ParentId="RatcheterTests.RatchetTests" type="NUnitTestElement" TypeName="RatcheterTests.RatchetTests" MethodName="WarningValueCanBeSet" Project="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61" />
+      </Elements>
+    </Session>
+  </UnitTestSessions>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="test" priority="447" />
+      <Item value="var" priority="447" />
+      <Item value="new" priority="479" />
+      <Item value="RatchetTests" priority="28" />
+      <Item value="public" priority="187" />
+      <Item value="Build" priority="26" />
+      <Item value="Framework" priority="26" />
+      <Item value="return" priority="671" />
+      <Item value="true" priority="63" />
+      <Item value="prop" priority="31" />
+      <Item value="string" priority="220" />
+      <Item value="sut" priority="95" />
+      <Item value="aseq" priority="191" />
+      <Item value="expected" priority="32" />
+      <Item value="enum" priority="61" />
+      <Item value="RatchetingDirections`0" priority="254" />
+      <Item value="RatchetingDirection" priority="129" />
+      <Item value="Direction" priority="63" />
+      <Item value="bool" priority="223" />
+      <Item value="if" priority="383" />
+      <Item value="Enum`0" priority="95" />
+      <Item value="typeof" priority="63" />
+      <Item value="Ratchet`0" priority="63" />
+      <Item value="ratchet" priority="255" />
+      <Item value="internal" priority="221" />
+      <Item value="assembly" priority="30" />
+      <Item value="InternalsVisibleTo" priority="30" />
+      <Item value="int" priority="542" />
+      <Item value="_targetValue" priority="94" />
+      <Item value="OutOfMemoryException`0" priority="31" />
+      <Item value="out" priority="63" />
+      <Item value="UIntPtr`0" priority="63" />
+      <Item value="result" priority="223" />
+      <Item value="t" priority="31" />
+      <Item value="asbt" priority="127" />
+      <Item value="asrtn" priority="31" />
+      <Item value="current" priority="446" />
+      <Item value="target" priority="478" />
+      <Item value="Ratcheter" priority="28" />
+      <Item value="Rhino" priority="63" />
+      <Item value="Mocks" priority="53" />
+      <Item value="Mocker`0" priority="26" />
+      <Item value="logger" priority="95" />
+      <Item value="BadImageFormatException`0" priority="31" />
+      <Item value="_myLogger" priority="62" />
+      <Item value="null" priority="30" />
+      <Item value="this" priority="63" />
+      <Item value="parent" priority="31" />
+      <Item value="_parent" priority="31" />
+      <Item value="MessageImportance`0" priority="127" />
+      <Item value="ILogProxy`0" priority="223" />
+      <Item value="x" priority="127" />
+      <Item value="MyLogger" priority="95" />
+      <Item value="Required" priority="31" />
+      <Item value="abstract" priority="30" />
+      <Item value="logProxy" priority="160" />
+      <Item value="_logProxy" priority="252" />
+      <Item value="VerifyerTests" priority="28" />
+      <Item value="verifyer" priority="159" />
+      <Item value="Assert`0" priority="31" />
+      <Item value="_directions" priority="59" />
+      <Item value="direction" priority="62" />
+      <Item value="TowardsZero" priority="16" />
+      <Item value="private" priority="31" />
+      <Item value="_checker" priority="96" />
+      <Item value="class" priority="61" />
+      <Item value="IChecker`0" priority="31" />
+      <Item value="TowardsZeroChecker" priority="86" />
+      <Item value="else" priority="127" />
+      <Item value="TowardsHundredChecker" priority="57" />
+      <Item value="CurrentValueIsEqualToTargetValue`0" priority="63" />
+      <Item value="towardsHundredChecker" priority="31" />
+      <Item value="towardsZeroChecker" priority="31" />
+      <Item value="TestFixture" priority="30" />
+      <Item value="Checker" priority="158" />
+      <Item value="setup" priority="31" />
+      <Item value="Ratchet" priority="57" />
+      <Item value="_ratchet" priority="571" />
+      <Item value="RatchetValue" priority="31" />
+      <Item value="_ratchetValue" priority="125" />
+      <Item value="_warningValue" priority="94" />
+      <Item value="propertyName" priority="31" />
+      <Item value="_currentValue" priority="31" />
+      <Item value="warning" priority="63" />
+      <Item value="TowardsZeroChecker`0" priority="31" />
+      <Item value="InputTypeCanBeSet`0" priority="31" />
+      <Item value="types" priority="27" />
+      <Item value="InputTypes`0" priority="96" />
+      <Item value="InputType" priority="31" />
+      <Item value="_inputType" priority="31" />
+      <Item value="RatcheterSpecifications" priority="31" />
+      <Item value="SimpleSteps`0" priority="31" />
+      <Item value="MockRepository`0" priority="26" />
+      <Item value="_repository" priority="59" />
+      <Item value="switch" priority="95" />
+      <Item value="MyCurrentValue" priority="31" />
+      <Item value="MyTargetValue" priority="31" />
+      <Item value="MyWarningValue" priority="31" />
+      <Item value="false" priority="31" />
+      <Item value="ParameterDataAttribute`0" priority="28" />
+      <Item value="para" priority="30" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ratcheter.Ratchet">
+      <Item value="RatchetingDirection" priority="134" />
+      <Item value="Direction" priority="53" />
+      <Item value="Log" priority="26" />
+      <Item value="MyLogger" priority="53" />
+      <Item value="Execute`0" priority="53" />
+      <Item value="MyWarningvalue" priority="26" />
+      <Item value="TargetValue" priority="26" />
+      <Item value="CurrentValue" priority="26" />
+      <Item value="InputType" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Enum">
+      <Item value="Parse`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Ratcheter.RatchetingDirections">
+      <Item value="TowardsZero" priority="80" />
+      <Item value="TowardsHundred" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="TryParse`0" priority="53" />
+      <Item value="Parse`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.Mocker">
+      <Item value="Current" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.MockRepository">
+      <Item value="GenerateMock`1" priority="54" />
+      <Item value="GenerateStub`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Build.Utilities.Task">
+      <Item value="Log" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Build.Utilities.TaskLoggingHelper">
+      <Item value="LogMessage`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Build.Framework.ILogger">
+      <Item value="Stub`1" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ratcheter.ILogProxy">
+      <Item value="Stub`1" priority="53" />
+      <Item value="LogThis`0" priority="162" />
+      <Item value="VerifyAllExpectations`0" priority="81" />
+      <Item value="Expect`1" priority="82" />
+      <Item value="Equals`0" priority="26" />
+      <Item value="AssertWasCalled`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Build.Framework.MessageImportance">
+      <Item value="Normal" priority="80" />
+      <Item value="Low" priority="26" />
+      <Item value="High" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsInstanceOf`1" priority="26" />
+      <Item value="IsFalse`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ratcheter.Verifyer">
+      <Item value="Checker" priority="26" />
+      <Item value="CheckDirectInput`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ratcheter.TowardsHundredChecker">
+      <Item value="CurrentValueIsBetterThanTargetValue`0" priority="26" />
+      <Item value="CurrentValueIsEqualToTargetValue`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ratcheter.TowardsZeroChecker">
+      <Item value="CurrentValueIsBetterThanTargetValue`0" priority="26" />
+      <Item value="CurrentValueIsEqualToTargetValue`0" priority="27" />
+      <Item value="CurrentValueIsBetterThanTargetValueAndWarning`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ratcheter.IChecker">
+      <Item value="CurrentValueIsEqualToTargetValue`0" priority="26" />
+      <Item value="CurrentValueIsBetterThanTargetValue`0" priority="26" />
+      <Item value="CurrentValueIsBetterThanTargetValueAndWarning`0" priority="26" />
+      <Item value="CurrentValueIsWorseThanTargetValue`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="53" />
+      <Item value="Format`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ratcheter.Parameter">
+      <Item value="ParameterName" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

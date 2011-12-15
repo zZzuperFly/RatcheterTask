@@ -1,0 +1,10 @@
+C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\RatcheterTests.dll
+C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\RatcheterTests.pdb
+C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\nunit.framework.dll
+C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\Rhino.Mocks.dll
+C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\nunit.framework.xml
+C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\obj\Debug\ResolveAssemblyReference.cache
+C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\obj\Debug\RatcheterTests.dll
+C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\obj\Debug\RatcheterTests.pdb
+C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\Ratcheter.dll
+C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\Ratcheter.pdb

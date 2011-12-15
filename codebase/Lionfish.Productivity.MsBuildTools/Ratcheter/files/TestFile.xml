@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Projects>
+  <Project>
+    <Name>TestProject</Name>
+    <Parameters>
+      <Parameter>
+        <Name>Complexity</Name>
+        <Value>7</Value>
+      </Parameter>
+      <Parameter>
+        <Name>Core Coverage</Name>
+        <Value>65</Value>
+      </Parameter>
+    </Parameters>
+  </Project>
+  <Project>
+    <Name>test2</Name>
+    <Parameters>
+      <Parameter>
+        <Name>ComplexIty</Name>
+        <Value>5</Value>
+      </Parameter>
+    </Parameters>
+  </Project>
+</Projects>
+  
+  
