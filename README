@@ -1,0 +1,19 @@
+
+   __         _         _            _   
+  /__\  __ _ | |_  ___ | |__    ___ | |_ 
+ / \// / _` || __|/ __|| '_ \  / _ \| __|
+/ _  \| (_| || |_| (__ | | | ||  __/| |_ 
+\/ \_/ \__,_| \__|\___||_| |_| \___| \__|
+a small msbuildtask that compares some input and log the result
+it is at this moment not even close to beeing done - the finished version will use xml-files both as input/output and reporting 
+hopefully it will be done soon
+
+
+This is just a test but a bit of a tip on how to run the project.
+
+It is written in C# .net 4 and the solutionfile and all used dlls are included
+it contains tests written in nUnit, specFlow and uses rhino mocks for fakes.
+autofac is included but not used yet ( I am not familiar with the tool and it just don´t fit into my workflow yet)
+
+running debug will read from the projfile included in the project and tries to find both it and msbuild in hardcoded places
+ 
