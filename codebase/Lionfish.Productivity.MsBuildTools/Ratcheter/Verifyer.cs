@@ -27,37 +27,44 @@ namespace Ratcheter
             get { return _checker; }
         }
 
-        public bool CheckDirectInput(int current, int target, int warning)
+        public bool CheckDirectInput(Parameter parameter , VerifyerParameter verifyerParameter )
         {
-            if (Checker.CurrentValueIsWorseThanTargetValue(current, target))
+            if (parameter.ParameterName == verifyerParameter.ParameterName)
             {
-                _logProxy.LogThis(MessageImportance.Normal, "Fail: Current value is worse than target");
+                _logProxy.LogThis(MessageImportance.Low , string.Format("Checking {0}",parameter.ParameterName ));
+
+                if (Checker.CurrentValueIsWorseThanTargetValue(parameter.CurrentValue ,verifyerParameter.TargetValue ))
+                {
+                    _logProxy.LogThis(MessageImportance.Normal, string.Format("Fail: {0} -> Current value is worse than target",parameter.ParameterName ));
+                    return false;
+                }
+                if (Checker.CurrentValueIsEqualToTargetValue(parameter.CurrentValue, verifyerParameter.TargetValue))
+                {
+                    _logProxy.LogThis(MessageImportance.Normal,
+                                     string.Format( "Warning: {0} -> Current and Target equal - you are close to fail",parameter.ParameterName ));
+                    return true;
+
+                }
+                if (Checker.CurrentValueIsBetterThanTargetValue(parameter.CurrentValue, verifyerParameter.TargetValue) &
+                    !Checker.CurrentValueIsBetterThanTargetValueAndWarning(parameter.CurrentValue, verifyerParameter.TargetValue, verifyerParameter.WarningValue))
+                {
+                    _logProxy.LogThis(MessageImportance.Normal,
+                                     string.Format(  "Warning: {0} -> Current better than target but within warning - you are close to fail",parameter.ParameterName ));
+                    return true;
+
+                }
+                if (Checker.CurrentValueIsBetterThanTargetValue(parameter.CurrentValue, verifyerParameter.TargetValue))
+                {
+                    _logProxy.LogThis(MessageImportance.Normal, string.Format( "Success: {0} -> Current is better than Target",parameter.ParameterName ));
+                    return true;
+
+                }
+
+                _logProxy.LogThis(MessageImportance.Normal, "Error: something is outside my plan");
                 return false;
             }
-            if (Checker.CurrentValueIsEqualToTargetValue(current, target))
-            {
-                _logProxy.LogThis(MessageImportance.Normal, "Warning: Current and Target equal - you are close to fail");
-                return true;
-
-            }
-            if (Checker.CurrentValueIsBetterThanTargetValue(current, target) &
-                !Checker.CurrentValueIsBetterThanTargetValueAndWarning(current, target, warning))
-            {
-                _logProxy.LogThis(MessageImportance.Normal,
-                                  "Warning: Current better than target but within warning - you are close to fail");
-                return true;
-
-            }
-            if (Checker.CurrentValueIsBetterThanTargetValue(current, target))
-            {
-                _logProxy.LogThis(MessageImportance.Normal, "Success: Current is better than Target");
-                return true;
-
-            }
-
-            _logProxy.LogThis(MessageImportance.Normal, "Error: something is outside my plan");
+            _logProxy.LogThis(MessageImportance.Normal,string.Format( "Warning: no comparison due to differing parameternames {0} <-> {1}",parameter.ParameterName ,verifyerParameter.ParameterName ));
             return false;
-
         }
     }
 

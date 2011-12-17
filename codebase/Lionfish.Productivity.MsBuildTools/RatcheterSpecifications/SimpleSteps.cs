@@ -41,7 +41,7 @@ namespace RatcheterSpecifications
         [When(@"I run the application")]
         public void WhenIRunTheApplication()
         {
-            _logProxy.Expect(x => x.LogThis(MessageImportance.Normal, "Success: Current is better than Target"));
+            _logProxy.Expect(x => x.LogThis(MessageImportance.Normal, "Success:  -> Current is better than Target"));
             _ratchet.Execute();
         }
 

@@ -2,7 +2,6 @@
   <RecentFiles>
     <RecentFiles>
       <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/d:Properties/f:AssemblyInfo.cs" caret="619" fromTop="15" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/d:Properties/f:AssemblyInfo.cs" caret="733" fromTop="17" />
       <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:Simple.feature" caret="379" fromTop="12" />
       <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleWarning.feature" caret="23" fromTop="0" />
       <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleRatchet.feature" caret="25" fromTop="0" />
@@ -10,45 +9,48 @@
       <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:Simple.feature.cs" caret="0" fromTop="0" />
       <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/d:files/f:TestFile.xml" caret="0" fromTop="0" />
       <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:LogProxy.cs" caret="500" fromTop="6" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="2054" fromTop="4" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="605" fromTop="23" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="4190" fromTop="5" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="0" fromTop="0" />
-      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:VerifyerTests.cs" caret="0" fromTop="0" />
-      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:RatchetTests.cs" caret="0" fromTop="0" />
-      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParaneterTests.cs" caret="430" fromTop="20" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/d:Properties/f:AssemblyInfo.cs" caret="714" fromTop="17" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="984" fromTop="34" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:XmlHandler.cs" caret="221" fromTop="13" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:CheckerTests.cs" caret="3270" fromTop="7" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:RatchetTests.cs" caret="3456" fromTop="31" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="991" fromTop="27" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParameterTests.cs" caret="1116" fromTop="35" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="975" fromTop="18" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="4473" fromTop="32" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:VerifyerTests.cs" caret="597" fromTop="12" />
     </RecentFiles>
     <RecentEdits>
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleRatchet.feature" caret="0" fromTop="0" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleRatchet.feature" caret="480" fromTop="32" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleWarning.feature" caret="457" fromTop="25" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleWarning.feature" caret="182" fromTop="5" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleFailure.feature" caret="386" fromTop="17" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleFailure.feature" caret="320" fromTop="8" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:Simple.feature" caret="379" fromTop="12" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleFailure.feature" caret="24" fromTop="0" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleRatchet.feature" caret="25" fromTop="0" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleWarning.feature" caret="23" fromTop="0" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="1160" fromTop="8" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="1124" fromTop="19" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="495" fromTop="7" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="755" fromTop="14" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="1579" fromTop="39" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="1370" fromTop="32" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="3773" fromTop="23" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="4179" fromTop="37" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="3578" fromTop="4" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="3275" fromTop="41" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="587" fromTop="21" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="2288" fromTop="15" />
-      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:RatchetTests.cs" caret="1368" fromTop="29" />
-      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParaneterTests.cs" caret="430" fromTop="15" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="228" fromTop="13" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="230" fromTop="14" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="563" fromTop="22" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="0" fromTop="0" />
-      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParaneterTests.cs" caret="266" fromTop="16" />
-      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParaneterTests.cs" caret="0" fromTop="0" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="1002" fromTop="31" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParameterTests.cs" caret="306" fromTop="14" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParameterTests.cs" caret="1100" fromTop="34" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="79" fromTop="4" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="1096" fromTop="20" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="1208" fromTop="22" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="1675" fromTop="28" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="2270" fromTop="36" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="2619" fromTop="42" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="3026" fromTop="50" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="5304" fromTop="52" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="5304" fromTop="47" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="3877" fromTop="13" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="3334" fromTop="4" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="2986" fromTop="4" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="2816" fromTop="4" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="2633" fromTop="4" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="2816" fromTop="8" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="2986" fromTop="10" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="2816" fromTop="8" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="2633" fromTop="6" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="2452" fromTop="4" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="2311" fromTop="4" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="2153" fromTop="4" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="1970" fromTop="4" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="1391" fromTop="4" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="1641" fromTop="8" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="1508" fromTop="4" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="5110" fromTop="52" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="4471" fromTop="32" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -111,34 +113,34 @@
   </UnitTestSessions>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="test" priority="447" />
-      <Item value="var" priority="447" />
-      <Item value="new" priority="479" />
+      <Item value="test" priority="543" />
+      <Item value="var" priority="831" />
+      <Item value="new" priority="607" />
       <Item value="RatchetTests" priority="28" />
-      <Item value="public" priority="187" />
+      <Item value="public" priority="218" />
       <Item value="Build" priority="26" />
       <Item value="Framework" priority="26" />
-      <Item value="return" priority="671" />
+      <Item value="return" priority="767" />
       <Item value="true" priority="63" />
       <Item value="prop" priority="31" />
-      <Item value="string" priority="220" />
+      <Item value="string" priority="380" />
       <Item value="sut" priority="95" />
-      <Item value="aseq" priority="191" />
+      <Item value="aseq" priority="351" />
       <Item value="expected" priority="32" />
       <Item value="enum" priority="61" />
       <Item value="RatchetingDirections`0" priority="254" />
       <Item value="RatchetingDirection" priority="129" />
       <Item value="Direction" priority="63" />
       <Item value="bool" priority="223" />
-      <Item value="if" priority="383" />
+      <Item value="if" priority="447" />
       <Item value="Enum`0" priority="95" />
       <Item value="typeof" priority="63" />
       <Item value="Ratchet`0" priority="63" />
-      <Item value="ratchet" priority="255" />
-      <Item value="internal" priority="221" />
+      <Item value="ratchet" priority="318" />
+      <Item value="internal" priority="285" />
       <Item value="assembly" priority="30" />
       <Item value="InternalsVisibleTo" priority="30" />
-      <Item value="int" priority="542" />
+      <Item value="int" priority="638" />
       <Item value="_targetValue" priority="94" />
       <Item value="OutOfMemoryException`0" priority="31" />
       <Item value="out" priority="63" />
@@ -153,7 +155,7 @@
       <Item value="Rhino" priority="63" />
       <Item value="Mocks" priority="53" />
       <Item value="Mocker`0" priority="26" />
-      <Item value="logger" priority="95" />
+      <Item value="logger" priority="127" />
       <Item value="BadImageFormatException`0" priority="31" />
       <Item value="_myLogger" priority="62" />
       <Item value="null" priority="30" />
@@ -170,13 +172,13 @@
       <Item value="_logProxy" priority="252" />
       <Item value="VerifyerTests" priority="28" />
       <Item value="verifyer" priority="159" />
-      <Item value="Assert`0" priority="31" />
+      <Item value="Assert`0" priority="127" />
       <Item value="_directions" priority="59" />
       <Item value="direction" priority="62" />
       <Item value="TowardsZero" priority="16" />
       <Item value="private" priority="31" />
       <Item value="_checker" priority="96" />
-      <Item value="class" priority="61" />
+      <Item value="class" priority="92" />
       <Item value="IChecker`0" priority="31" />
       <Item value="TowardsZeroChecker" priority="86" />
       <Item value="else" priority="127" />
@@ -188,13 +190,13 @@
       <Item value="Checker" priority="158" />
       <Item value="setup" priority="31" />
       <Item value="Ratchet" priority="57" />
-      <Item value="_ratchet" priority="571" />
+      <Item value="_ratchet" priority="667" />
       <Item value="RatchetValue" priority="31" />
       <Item value="_ratchetValue" priority="125" />
       <Item value="_warningValue" priority="94" />
       <Item value="propertyName" priority="31" />
       <Item value="_currentValue" priority="31" />
-      <Item value="warning" priority="63" />
+      <Item value="warning" priority="126" />
       <Item value="TowardsZeroChecker`0" priority="31" />
       <Item value="InputTypeCanBeSet`0" priority="31" />
       <Item value="types" priority="27" />
@@ -203,21 +205,37 @@
       <Item value="_inputType" priority="31" />
       <Item value="RatcheterSpecifications" priority="31" />
       <Item value="SimpleSteps`0" priority="31" />
-      <Item value="MockRepository`0" priority="26" />
+      <Item value="MockRepository`0" priority="58" />
       <Item value="_repository" priority="59" />
       <Item value="switch" priority="95" />
-      <Item value="MyCurrentValue" priority="31" />
-      <Item value="MyTargetValue" priority="31" />
-      <Item value="MyWarningValue" priority="31" />
-      <Item value="false" priority="31" />
+      <Item value="MyCurrentValue" priority="63" />
+      <Item value="MyTargetValue" priority="63" />
+      <Item value="MyWarningValue" priority="63" />
+      <Item value="false" priority="63" />
       <Item value="ParameterDataAttribute`0" priority="28" />
-      <Item value="para" priority="30" />
+      <Item value="para" priority="61" />
+      <Item value="_myXmlHandler" priority="63" />
+      <Item value="XmlHandler" priority="28" />
+      <Item value="IXmlHandler`0" priority="63" />
+      <Item value="Ignore" priority="31" />
+      <Item value="Parameter" priority="55" />
+      <Item value="currentValue" priority="30" />
+      <Item value="name" priority="94" />
+      <Item value="VerifyerParameter" priority="57" />
+      <Item value="targetValue" priority="62" />
+      <Item value="verpara" priority="123" />
+      <Item value="Parameter`0" priority="63" />
+      <Item value="VerifyerParameter`0" priority="95" />
+      <Item value="verifyerParameter" priority="183" />
+      <Item value="parameter" priority="283" />
+      <Item value="ParameterName" priority="31" />
+      <Item value="MyRatchetValue" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Ratcheter.Ratchet">
       <Item value="RatchetingDirection" priority="134" />
       <Item value="Direction" priority="53" />
       <Item value="Log" priority="26" />
-      <Item value="MyLogger" priority="53" />
+      <Item value="MyLogger" priority="80" />
       <Item value="Execute`0" priority="53" />
       <Item value="MyWarningvalue" priority="26" />
       <Item value="TargetValue" priority="26" />
@@ -241,6 +259,7 @@
     <ItemStatistics item="Qualified:@Rhino.Mocks.MockRepository">
       <Item value="GenerateMock`1" priority="54" />
       <Item value="GenerateStub`0" priority="22" />
+      <Item value="GenerateStub`1" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Microsoft.Build.Utilities.Task">
       <Item value="Log" priority="53" />
@@ -261,12 +280,13 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Microsoft.Build.Framework.MessageImportance">
       <Item value="Normal" priority="80" />
-      <Item value="Low" priority="26" />
+      <Item value="Low" priority="54" />
       <Item value="High" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
-      <Item value="IsInstanceOf`1" priority="26" />
+      <Item value="IsInstanceOf`1" priority="53" />
       <Item value="IsFalse`0" priority="27" />
+      <Item value="IsInstanceOf`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Ratcheter.Verifyer">
       <Item value="Checker" priority="26" />
@@ -289,13 +309,20 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
       <Item value="IsNullOrEmpty`0" priority="53" />
-      <Item value="Format`0" priority="26" />
+      <Item value="Format`0" priority="134" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Int32">
       <Item value="ToString`0" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Ratcheter.Parameter">
-      <Item value="ParameterName" priority="26" />
+      <Item value="ParameterName" priority="188" />
+      <Item value="CurrentValue" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ratcheter.VerifyerParameter">
+      <Item value="ParameterName" priority="80" />
+      <Item value="TargetValue" priority="53" />
+      <Item value="WarningValue" priority="53" />
+      <Item value="RatchetValue" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

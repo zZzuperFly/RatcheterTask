@@ -4,17 +4,11 @@
    {
        private string _parameterName;
        private int _currentValue;
-       private int _targetValue;
-       private int _warning;
-       private int _ratchetValue;
 
-       public Parameter(string parameterName, int currentValue, int targetValue, int warning, int ratchetValue)
+       public Parameter(string parameterName, int currentValue)
        {
            _parameterName = parameterName;
            _currentValue = currentValue;
-           _targetValue = targetValue;
-           _warning = warning;
-           _ratchetValue = ratchetValue;
        }
 
        public string ParameterName
@@ -27,19 +21,40 @@
            get { return _currentValue; }
        }
 
-       public int TargetValue
-       {
-           get { return _targetValue; }
-       }
-
-       public int Warning
-       {
-           get { return _warning; }
-       }
-
-       public int RatchetValue
-       {
-           get { return _ratchetValue; }
-       }
    }
+    public class VerifyerParameter
+    {
+        private string _parameterName;
+        private int _targetValue;
+        private int _ratchetValue;
+        private int _warningValue;
+
+        public VerifyerParameter(string parameterName, int targetValue, int ratchetValue, int warningValue)
+        {
+            _parameterName = parameterName;
+            _targetValue = targetValue;
+            _ratchetValue = ratchetValue;
+            _warningValue = warningValue;
+        }
+
+        public string ParameterName
+        {
+            get { return _parameterName; }
+        }
+
+        public int TargetValue
+        {
+            get { return _targetValue; }
+        }
+
+        public int RatchetValue
+        {
+            get { return _ratchetValue; }
+        }
+
+        public int WarningValue
+        {
+            get { return _warningValue; }
+        }
+    }
 }

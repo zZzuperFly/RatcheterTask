@@ -103,6 +103,21 @@ namespace RatcheterTests
 
             //Assert
         }
+
+        [Test,Ignore]
+        public void XmlHandlingCanBeFaked()
+        {
+            //Arrange
+            _ratchet.Direction = "towardsZero";
+            _ratchet.InputType = "DirectVsFile";
+            var xmlHnadler = MockRepository.GenerateStub<IXmlHandler>();
+            var logger = MockRepository.GenerateMock<ILogProxy >();
+            //Act
+            _ratchet.MyLogger = logger;
+            _ratchet.MyXmlHandler = xmlHnadler;
+            //Assert
+
+        }
     
     }
 

@@ -32,6 +32,8 @@ namespace Ratcheter
         private string _ratchetValue;
         private string _warningValue;
         private string  _inputType;
+        private IXmlHandler _myXmlHandler;
+        private string _parameterName;
 
 
         [Required]
@@ -68,7 +70,13 @@ namespace Ratcheter
             set { _inputType = value; }
         }
 
-        public ILogProxy MyLogger
+        public string ParameterName
+        {
+            get { return _parameterName; }
+            set { _parameterName = value; }
+        }
+
+        internal  ILogProxy MyLogger
         {
             get
             {
@@ -120,6 +128,19 @@ namespace Ratcheter
             }
         }
 
+        internal IXmlHandler MyXmlHandler
+        {
+            get
+            {
+                if (_myXmlHandler == null)
+                {
+                    _myXmlHandler = new XmlHandler();
+                }
+                return _myXmlHandler;
+            }
+            set { _myXmlHandler = value; }
+        }
+
 
         private int CheckNumericInputs(string input,  string propertyName)
         {
@@ -149,7 +170,9 @@ namespace Ratcheter
             switch (MyInputType)
             {
                 case InputTypes.Direct:
-                    result = verifyer.CheckDirectInput(MyCurrentValue, MyTargetValue, MyWarningValue);
+                    Parameter parameter = CreateParameter();
+                    VerifyerParameter verifyerParameter = CreateVerifyParameter();
+                    result = verifyer.CheckDirectInput(parameter,verifyerParameter );
                     break;
                 case InputTypes.DirectVsFile:
                     break;
@@ -164,6 +187,18 @@ namespace Ratcheter
 
 
             return result;
+        }
+
+        private VerifyerParameter CreateVerifyParameter()
+        {
+            //verify all necessary input
+            return new VerifyerParameter(ParameterName, MyTargetValue, MyRatchetValue, MyWarningValue);
+        }
+
+        private Parameter CreateParameter()
+        {
+            //verify all necessary input
+            return new Parameter(ParameterName, MyCurrentValue);
         }
     }
 }

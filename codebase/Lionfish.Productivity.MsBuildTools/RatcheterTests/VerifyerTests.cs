@@ -8,6 +8,7 @@ namespace RatcheterTests
     [TestFixture]
     public class VerifyerTests
     {
+
         [Test]
         public void DirectionAndLoggerIsKnownAndDirectionClassIsChosen()
         {
@@ -27,9 +28,11 @@ namespace RatcheterTests
             var logProxy = MockRepository.GenerateMock<ILogProxy>();
             var verifyer = new Verifyer(logProxy, RatchetingDirections.TowardsHundred);
             //Act
-            logProxy.Expect( x => x.LogThis(MessageImportance.Normal, "Success: Current is better than Target"));
+            logProxy.Expect( x => x.LogThis(MessageImportance.Normal, "Success: para -> Current is better than Target"));
+            var parameter = new Parameter("para", 6);
+            var verifyerParameter = new VerifyerParameter("para", 5, 0, 0);
             //Assert
-            verifyer.CheckDirectInput(5, 1,3);
+            verifyer.CheckDirectInput(parameter,verifyerParameter );
 
             logProxy.VerifyAllExpectations();
         }
@@ -44,9 +47,11 @@ namespace RatcheterTests
             logProxy.Expect(
                 x =>
                 x.LogThis(MessageImportance.Normal,
-                          "Warning: Current better than target but within warning - you are close to fail"));
+                          "Warning: para -> Current better than target but within warning - you are close to fail"));
             //Assert
-            verifyer.CheckDirectInput(4, 1, 3);
+            var parameter = new Parameter("para", 6);
+            var verifyerParameter = new VerifyerParameter("para", 5, 0, 2);
+            verifyer.CheckDirectInput(parameter,verifyerParameter );
 
             logProxy.VerifyAllExpectations();
         }
@@ -61,9 +66,11 @@ namespace RatcheterTests
             logProxy.Expect(
                 x =>
                 x.LogThis(MessageImportance.Normal,
-                          "Fail: Current value is worse than target"));
+                          "Fail: para -> Current value is worse than target"));
+            var parameter = new Parameter("para", 4);
+            var verifyerParameter = new VerifyerParameter("para", 5, 0, 2);
             //Assert
-            verifyer.CheckDirectInput(1, 4, 3);
+            verifyer.CheckDirectInput(parameter,verifyerParameter );
 
             logProxy.VerifyAllExpectations();
         }
@@ -75,9 +82,11 @@ namespace RatcheterTests
             var logProxy = MockRepository.GenerateMock<ILogProxy>();
             var verifyer = new Verifyer(logProxy, RatchetingDirections.TowardsZero);
             //Act
-            logProxy.Expect(x => x.LogThis(MessageImportance.Normal, "Fail: Current value is worse than target"));
+            logProxy.Expect(x => x.LogThis(MessageImportance.Normal, "Fail: para -> Current value is worse than target"));
+            var parameter = new Parameter("para", 6);
+            var verifyerParameter = new VerifyerParameter("para", 5, 0, 2);
             //Assert
-            verifyer.CheckDirectInput(10, 5, 3);
+            verifyer.CheckDirectInput(parameter,verifyerParameter );
 
             logProxy.VerifyAllExpectations();
         }
@@ -89,9 +98,11 @@ namespace RatcheterTests
             var logProxy = MockRepository.GenerateMock<ILogProxy>();
             var verifyer = new Verifyer(logProxy, RatchetingDirections.TowardsZero);
             //Act
-            logProxy.Expect(x => x.LogThis(MessageImportance.Normal, "Success: Current is better than Target"));
+            logProxy.Expect(x => x.LogThis(MessageImportance.Normal, "Success: para -> Current is better than Target"));
+            var parameter = new Parameter("para", 1);
+            var verifyerParameter = new VerifyerParameter("para", 5, 0, 2);
             //Assert
-            verifyer.CheckDirectInput(1, 5, 3);
+            verifyer.CheckDirectInput(parameter,verifyerParameter );
 
             logProxy.VerifyAllExpectations();
         }
@@ -106,113 +117,24 @@ namespace RatcheterTests
             logProxy.Expect(
                 x =>
                 x.LogThis(MessageImportance.Normal,
-                          "Warning: Current better than target but within warning - you are close to fail"));
+                          "Warning: para -> Current better than target but within warning - you are close to fail"));
+            var parameter = new Parameter("para", 4);
+            var verifyerParameter = new VerifyerParameter("para", 5, 0, 2);
             //Assert
-            verifyer.CheckDirectInput(1, 4, 3);
+            verifyer.CheckDirectInput(parameter,verifyerParameter );
 
             logProxy.VerifyAllExpectations();
         }
-    }
 
-
-    [TestFixture]
-    public class CheckerTests
-    {
-        [Test]
-        public void TowardsHUndredAndCheckerReturnsTrueIfCurrentIsHigherThanTarget()
+        [Test,Ignore]
+        public void CheckDirectVsFileInputTakesAListOfParametersAndAParameterObjectAndStartsVerify()
         {
             //Arrange
-            var towardsHundredChecker = new TowardsHundredChecker();
-
+            var logProxy = MockRepository.GenerateMock<ILogProxy>();
+            var verifyer = new Verifyer(logProxy, RatchetingDirections.TowardsZero);
             //Act
-            var result = towardsHundredChecker.CurrentValueIsBetterThanTargetValue(4, 2);
+
             //Assert
-            Assert.IsTrue(result);
-
         }
-
-        [Test]
-        public void TowardsHUndredAndCheckerReturnsTrueIfCurrentIsEqualToTarget()
-        {
-            //Arrange
-            var towardsHundredChecker = new TowardsHundredChecker();
-
-            //Act
-            var result = towardsHundredChecker.CurrentValueIsEqualToTargetValue(4, 4);
-            //Assert
-            Assert.IsTrue(result);
-        }
-
-        [Test]
-        public void TowardsHundredCheckerReturnsTrueIfcurrentIsmorehanTargetplusWarning()
-        {
-            //Arrange
-            var towardsHundredChecker = new TowardsHundredChecker();
-            //Act
-            var result = towardsHundredChecker.CurrentValueIsBetterThanTargetValueAndWarning(10, 5, 3);
-            //Assert
-            Assert.IsTrue(result);
-        }
-
-        [Test]
-        public void TowardsHundredCheckerReturnsfalseIfcurrentIsLessThanTargetplusWarning()
-        {
-            //Arrange
-            var towardsHundredChecker = new TowardsHundredChecker();
-            //Act
-            var result = towardsHundredChecker.CurrentValueIsBetterThanTargetValueAndWarning(7, 5, 3);
-            //Assert
-            Assert.IsFalse(result);
-        }
-
-
-        [Test]
-        public void TowardsZeroCheckerreturnsTrueWhenCurrentIsLowerThanTarget()
-        {
-            //Arrange
-            var towardsZeroChecker = new TowardsZeroChecker();
-            //Act
-            var result = towardsZeroChecker.CurrentValueIsBetterThanTargetValue(2, 4);
-            //Assert
-            Assert.IsTrue(result);
-
-        }
-
-        [Test]
-        public void TowardsZeroCheckerreturnsTrueWhenCurrentIsEqualToTarget()
-        {
-            //Arrange
-            var towardsZeroChecker = new TowardsZeroChecker();
-            //Act
-            var result = towardsZeroChecker.CurrentValueIsEqualToTargetValue(2, 2);
-            //Assert
-            Assert.IsTrue(result);
-
-        }
-
-        [Test]
-        public void TowardsZeroCheckerReturnsTrueIfcurrentIsLessThanTargetMinusWarning()
-        {
-            //Arrange
-            var towardsZeroChecker = new TowardsZeroChecker();
-            //Act
-            var result = towardsZeroChecker.CurrentValueIsBetterThanTargetValueAndWarning(5, 10, 3);
-            //Assert
-            Assert.IsTrue(result);
-        }
-
-        [Test]
-        public void TowardsZeroCheckerReturnsfalseIfcurrentIsMoreThanTargetMinusWarning()
-        {
-            //Arrange
-            var towardsZeroChecker = new TowardsZeroChecker();
-            //Act
-            var result = towardsZeroChecker.CurrentValueIsBetterThanTargetValueAndWarning(5, 7, 3);
-            //Assert
-            Assert.IsFalse(result);
-        }
-
-
-
     }
 }
