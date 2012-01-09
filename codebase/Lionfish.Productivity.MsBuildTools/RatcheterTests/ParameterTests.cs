@@ -27,12 +27,14 @@ namespace RatcheterTests
             var targetValue = 3;
             var warning = 2;
             var ratchet = 1;
-            var verpara = new VerifyerParameter(name, targetValue, ratchet, warning);
+            var verpara = new VerifyerParameter(name, targetValue, ratchet, warning,RatchetingDirections.TowardsHundred );
             //Act
             Assert.AreEqual(name , verpara.ParameterName );
             Assert.AreEqual(targetValue , verpara.TargetValue );
             Assert.AreEqual(warning, verpara.WarningValue );
             Assert.AreEqual(ratchet, verpara.RatchetValue);
+            Assert.AreEqual(RatchetingDirections.TowardsHundred , verpara.Direction );
+            
             
             //Assert
         }

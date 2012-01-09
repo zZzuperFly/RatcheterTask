@@ -34,6 +34,7 @@ namespace Ratcheter
         private string  _inputType;
         private IXmlHandler _myXmlHandler;
         private string _parameterName;
+        private string _verifyParameterName;
 
 
         [Required]
@@ -74,6 +75,11 @@ namespace Ratcheter
         {
             get { return _parameterName; }
             set { _parameterName = value; }
+        }
+        public string VerifyParameterName
+        {
+            get { return _verifyParameterName; }
+            set { _verifyParameterName = value; }
         }
 
         internal  ILogProxy MyLogger
@@ -165,7 +171,7 @@ namespace Ratcheter
             MyLogger.LogThis(MessageImportance.Low, "ratchet: started!");
 
             //verify properties
-            var verifyer = new Verifyer(MyLogger, RatchetingDirection  );
+            var verifyer = new Verifyer(MyLogger  );
             bool result = false ;
             switch (MyInputType)
             {
@@ -175,6 +181,7 @@ namespace Ratcheter
                     result = verifyer.CheckDirectInput(parameter,verifyerParameter );
                     break;
                 case InputTypes.DirectVsFile:
+
                     break;
                 case InputTypes.FileVsFile:
                     break;
@@ -192,7 +199,7 @@ namespace Ratcheter
         private VerifyerParameter CreateVerifyParameter()
         {
             //verify all necessary input
-            return new VerifyerParameter(ParameterName, MyTargetValue, MyRatchetValue, MyWarningValue);
+            return new VerifyerParameter(VerifyParameterName , MyTargetValue, MyRatchetValue, MyWarningValue,RatchetingDirection );
         }
 
         private Parameter CreateParameter()
