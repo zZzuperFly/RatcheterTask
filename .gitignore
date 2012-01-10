@@ -1,0 +1,21 @@
+
+
+#no resharper
+_ReSharper*/
+*.resharper
+
+
+#no suo
+*.suo
+
+#no user
+*.user
+
+#no bin
+*\bin
+
+#no obj
+*\obj
+
+#NuGet
+packages/
