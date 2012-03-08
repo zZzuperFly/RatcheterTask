@@ -9,12 +9,29 @@ using Microsoft.Build.Utilities;
 
 namespace Ratcheter
 {
+    /// <summary>
+    /// <para>TowardsZero will ratchet downwards and stop when reaching zero</para>
+    /// <para>TowardsHundred will ratchet upwards and will NOT stop when reaching hundred</para>
+    /// </summary>
+    /// <remarks>
+    /// written by: OstenP
+    /// @ 2012-03-06 - 16:05
+    /// </remarks>
     public enum RatchetingDirections
     {
         TowardsZero,
         TowardsHundred
     }
 
+    /// <summary>
+    /// <para>direct verifies commandline input only</para>
+    /// <para>directVsFile verifies commandline input with file of ratchet values</para>
+    /// <para>FileVsFile verifies file with collected input with file of ratchet values</para>
+    /// </summary>
+    /// <remarks>
+    /// written by: OstenP
+    /// @ 2012-03-06 - 16:07
+    /// </remarks>
     public enum InputTypes
     {
         Direct,
@@ -76,6 +93,7 @@ namespace Ratcheter
             get { return _parameterName; }
             set { _parameterName = value; }
         }
+
         public string VerifyParameterName
         {
             get { return _verifyParameterName; }
@@ -134,6 +152,8 @@ namespace Ratcheter
             }
         }
 
+
+
         internal IXmlHandler MyXmlHandler
         {
             get
@@ -181,7 +201,8 @@ namespace Ratcheter
                     result = verifyer.CheckDirectInput(parameter,verifyerParameter );
                     break;
                 case InputTypes.DirectVsFile:
-
+                    var validateXML = new XmlValidator(MyLogger);
+                    //validateXML.ValidateXml()
                     break;
                 case InputTypes.FileVsFile:
                     break;

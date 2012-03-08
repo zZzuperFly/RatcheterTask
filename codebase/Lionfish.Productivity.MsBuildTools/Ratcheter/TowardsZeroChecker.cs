@@ -25,11 +25,15 @@ namespace Ratcheter
 
         public bool CanBeRatcheted(int current, int target, int warning, int ratchet)
         {
-            return (current <= NewRatchetValue(target, ratchet) && (NewRatchetValue(target , ratchet) > 0));
+            return (current <= NewRatchetValue(target, ratchet) );
         }
 
         public int NewRatchetValue(int target, int ratchet)
         {
+            if ((target - ratchet) < 0)
+            {
+                return 0;
+            }
             return target - ratchet;
         }
     }

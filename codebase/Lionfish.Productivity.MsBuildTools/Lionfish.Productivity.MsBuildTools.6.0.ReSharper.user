@@ -10,29 +10,20 @@
       <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/d:files/f:TestFile.xml" caret="0" fromTop="0" />
       <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:LogProxy.cs" caret="500" fromTop="6" />
       <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/d:Properties/f:AssemblyInfo.cs" caret="714" fromTop="17" />
-      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="984" fromTop="34" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:XmlHandler.cs" caret="221" fromTop="13" />
-      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:CheckerTests.cs" caret="3270" fromTop="7" />
       <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:RatchetTests.cs" caret="3456" fromTop="31" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="991" fromTop="27" />
       <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParameterTests.cs" caret="1116" fromTop="35" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="975" fromTop="18" />
+      <File id="3936CFAA-5E2C-4691-9E04-FF62181ED0A8/f:SimpleSteps.cs" caret="984" fromTop="34" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:CheckerTests.cs" caret="3270" fromTop="7" />
       <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="4473" fromTop="32" />
-      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:VerifyerTests.cs" caret="597" fromTop="12" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:TowardsHundredChecker.cs" caret="0" fromTop="0" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:IChecker.cs" caret="0" fromTop="0" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:VerifyerTests.cs" caret="7551" fromTop="41" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:TowardsZeroChecker.cs" caret="0" fromTop="0" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="4264" fromTop="27" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:XmlHandler.cs" caret="214" fromTop="12" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="1775" fromTop="17" />
     </RecentFiles>
     <RecentEdits>
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="1002" fromTop="31" />
-      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParameterTests.cs" caret="306" fromTop="14" />
-      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:ParameterTests.cs" caret="1100" fromTop="34" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="79" fromTop="4" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="1096" fromTop="20" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="1208" fromTop="22" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="1675" fromTop="28" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="2270" fromTop="36" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="2619" fromTop="42" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="3026" fromTop="50" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="5304" fromTop="52" />
-      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="5304" fromTop="47" />
       <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="3877" fromTop="13" />
       <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="3334" fromTop="4" />
       <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="2986" fromTop="4" />
@@ -51,6 +42,18 @@
       <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="1508" fromTop="4" />
       <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="5110" fromTop="52" />
       <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Ratchet.cs" caret="4471" fromTop="32" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:VerifyerTests.cs" caret="5433" fromTop="30" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:VerifyerTests.cs" caret="7256" fromTop="35" />
+      <File id="6DBDC5C3-D908-42B0-BE43-0F9C691A3B61/f:VerifyerTests.cs" caret="7551" fromTop="41" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="2214" fromTop="20" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="1415" fromTop="4" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="27" fromTop="2" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="4186" fromTop="46" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="4337" fromTop="52" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="1903" fromTop="14" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="1543" fromTop="9" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Verifyer.cs" caret="4423" fromTop="27" />
+      <File id="B560A64D-2A60-41B9-9B05-38995BAAF168/f:Parameter.cs" caret="1775" fromTop="17" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -67,7 +70,8 @@
     <string />
     <integer />
     <boolean>
-      <setting name="SolutionAnalysisEnabled">False</setting>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
     </boolean>
   </SettingsComponent>
   <UnitTestSessions>
@@ -115,15 +119,15 @@
     <ItemStatistics item="CSharpCodeCompletionContext">
       <Item value="test" priority="543" />
       <Item value="var" priority="831" />
-      <Item value="new" priority="607" />
+      <Item value="new" priority="703" />
       <Item value="RatchetTests" priority="28" />
-      <Item value="public" priority="218" />
+      <Item value="public" priority="249" />
       <Item value="Build" priority="26" />
       <Item value="Framework" priority="26" />
       <Item value="return" priority="767" />
       <Item value="true" priority="63" />
       <Item value="prop" priority="31" />
-      <Item value="string" priority="380" />
+      <Item value="string" priority="476" />
       <Item value="sut" priority="95" />
       <Item value="aseq" priority="351" />
       <Item value="expected" priority="32" />
@@ -132,7 +136,7 @@
       <Item value="RatchetingDirection" priority="129" />
       <Item value="Direction" priority="63" />
       <Item value="bool" priority="223" />
-      <Item value="if" priority="447" />
+      <Item value="if" priority="479" />
       <Item value="Enum`0" priority="95" />
       <Item value="typeof" priority="63" />
       <Item value="Ratchet`0" priority="63" />
@@ -171,14 +175,14 @@
       <Item value="logProxy" priority="160" />
       <Item value="_logProxy" priority="252" />
       <Item value="VerifyerTests" priority="28" />
-      <Item value="verifyer" priority="159" />
+      <Item value="verifyer" priority="191" />
       <Item value="Assert`0" priority="127" />
       <Item value="_directions" priority="59" />
       <Item value="direction" priority="62" />
       <Item value="TowardsZero" priority="16" />
-      <Item value="private" priority="31" />
+      <Item value="private" priority="63" />
       <Item value="_checker" priority="96" />
-      <Item value="class" priority="92" />
+      <Item value="class" priority="123" />
       <Item value="IChecker`0" priority="31" />
       <Item value="TowardsZeroChecker" priority="86" />
       <Item value="else" priority="127" />
@@ -211,7 +215,7 @@
       <Item value="MyCurrentValue" priority="63" />
       <Item value="MyTargetValue" priority="63" />
       <Item value="MyWarningValue" priority="63" />
-      <Item value="false" priority="63" />
+      <Item value="false" priority="95" />
       <Item value="ParameterDataAttribute`0" priority="28" />
       <Item value="para" priority="61" />
       <Item value="_myXmlHandler" priority="63" />
@@ -226,10 +230,17 @@
       <Item value="verpara" priority="123" />
       <Item value="Parameter`0" priority="63" />
       <Item value="VerifyerParameter`0" priority="95" />
-      <Item value="verifyerParameter" priority="183" />
-      <Item value="parameter" priority="283" />
+      <Item value="verifyerParameter" priority="214" />
+      <Item value="parameter" priority="314" />
       <Item value="ParameterName" priority="31" />
       <Item value="MyRatchetValue" priority="31" />
+      <Item value="IEnumerable" priority="31" />
+      <Item value="OutputParameter`0" priority="31" />
+      <Item value="List&lt;OutputParameter&gt;" priority="57" />
+      <Item value="foreach" priority="31" />
+      <Item value="_isOk" priority="31" />
+      <Item value="isOk" priority="31" />
+      <Item value="OutputParameter" priority="28" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Ratcheter.Ratchet">
       <Item value="RatchetingDirection" priority="134" />
@@ -291,6 +302,7 @@
     <ItemStatistics item="Qualified:Ratcheter.Verifyer">
       <Item value="Checker" priority="26" />
       <Item value="CheckDirectInput`0" priority="26" />
+      <Item value="CheckDirectVsParameterList`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Ratcheter.TowardsHundredChecker">
       <Item value="CurrentValueIsBetterThanTargetValue`0" priority="26" />
@@ -315,14 +327,17 @@
       <Item value="ToString`0" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Ratcheter.Parameter">
-      <Item value="ParameterName" priority="188" />
+      <Item value="ParameterName" priority="215" />
       <Item value="CurrentValue" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Ratcheter.VerifyerParameter">
-      <Item value="ParameterName" priority="80" />
+      <Item value="ParameterName" priority="107" />
       <Item value="TargetValue" priority="53" />
       <Item value="WarningValue" priority="53" />
       <Item value="RatchetValue" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToLower`0" priority="53" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

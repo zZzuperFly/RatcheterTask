@@ -8,3 +8,13 @@ C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\obj\Debug\Ratc
 C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\obj\Debug\RatcheterTests.pdb
 C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\Ratcheter.dll
 C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\Ratcheter.pdb
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\RatcheterTests.dll
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\RatcheterTests.pdb
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\nunit.framework.dll
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\Ratcheter.dll
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\Rhino.Mocks.dll
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\Ratcheter.pdb
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterTests\bin\Debug\nunit.framework.xml
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterTests\obj\Debug\RatcheterTests.dll
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterTests\obj\Debug\RatcheterTests.pdb

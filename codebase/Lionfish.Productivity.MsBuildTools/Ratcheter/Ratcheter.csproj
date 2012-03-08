@@ -58,6 +58,7 @@
     <Compile Include="TowardsZeroChecker.cs" />
     <Compile Include="Verifyer.cs" />
     <Compile Include="XmlHandler.cs" />
+    <Compile Include="XmlValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="files\DirectInput.testproj" />

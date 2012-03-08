@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.Build.Framework;
 
 namespace Ratcheter
@@ -8,15 +9,20 @@ namespace Ratcheter
         private ILogProxy _logProxy;
         private IChecker _checker;
 
+
+        /// <summary>
+        /// instantiate the class with the option to fake the logger
+        /// </summary>
+        /// <param name="logProxy"></param>
         public Verifyer(ILogProxy logProxy)
         {
             _logProxy = logProxy;
-
-    
         }
 
-
-        public IChecker Checker
+        /// <summary>
+        /// return the instantiated checkerclass
+        /// </summary>
+        private IChecker Checker
         {
             get { return _checker; }
         }
@@ -24,7 +30,7 @@ namespace Ratcheter
         public bool CheckDirectInput(Parameter parameter, VerifyerParameter verifyerParameter)
         {
 
-            if (parameter.ParameterName == verifyerParameter.ParameterName)
+            if (IsSameParameterName(parameter, verifyerParameter))
             {
                 var result = CheckInput(parameter, verifyerParameter);
                 _logProxy.LogThis(MessageImportance.Normal, result.VeriferResult);
@@ -34,6 +40,24 @@ namespace Ratcheter
                               string.Format("Warning: no comparison due to differing parameternames {0} <-> {1}",
                                             parameter.ParameterName, verifyerParameter.ParameterName));
             return false;
+        }
+
+        private bool IsSameParameterName(Parameter parameter, VerifyerParameter verifyerParameter)
+        {
+            if (string.IsNullOrEmpty( parameter.ParameterName) & string.IsNullOrEmpty( verifyerParameter.ParameterName ) )
+            {
+                return true;
+            }
+            if (string.IsNullOrEmpty(parameter.ParameterName) || string.IsNullOrEmpty(verifyerParameter.ParameterName))
+            {
+                return false;
+            }
+            if(parameter.ParameterName.ToLower( ) == verifyerParameter.ParameterName.ToLower( ) )
+            {
+                return true;
+            }
+            
+          return false;
         }
 
         private OutputParameter CheckInput(Parameter parameter, VerifyerParameter verifyerParameter)
@@ -106,16 +130,30 @@ namespace Ratcheter
         public IEnumerable<OutputParameter> CheckDirectVsParameterList(Parameter parameter,
                                                                        IEnumerable<VerifyerParameter> verifyerParameters)
         {
+            var resultingList = new List<OutputParameter>();
             foreach (var verifyerParameter in verifyerParameters)
             {
-                if (verifyerParameter.ParameterName.ToLower() == parameter.ParameterName.ToLower())
+                if (verifyerParameter.ParameterName == parameter.ParameterName)
                 {
-
+                    var result = CheckInput(parameter, verifyerParameter);
+                    resultingList.Add(result);
                 }
             }
-            //bool borde räcka
-            //CHEXCK DIRECT BORDE FUNKA
-            return new List<OutputParameter> {new OutputParameter("a", "b", false)};
+
+            return resultingList;
+        }
+
+        public List<OutputParameter> CheckFileVsFile(List<Parameter> parameters, List<VerifyerParameter> verifyerParameters)
+        {
+            var resultingList = new List<OutputParameter>();
+            foreach (var parameter in parameters)
+            {
+                resultingList.AddRange(from verifyerParameter in verifyerParameters 
+                                       where verifyerParameter.ParameterName == parameter.ParameterName 
+                                       select CheckInput(parameter, verifyerParameter));
+            }
+
+            return resultingList;
         }
     }
 }

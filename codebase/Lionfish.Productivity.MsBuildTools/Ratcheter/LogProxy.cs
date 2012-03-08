@@ -21,6 +21,12 @@ namespace Ratcheter
         {
             _parent.Log.LogMessage(importance, msg);
         }
+
+        public void LogSuccess(OutputParameter param )
+        {
+            _parent.Log.LogMessage(MessageImportance.Normal,param.ParameterName + " succeded: " + param.VeriferResult);
+        }
+
     }
 
     public interface ILogProxy

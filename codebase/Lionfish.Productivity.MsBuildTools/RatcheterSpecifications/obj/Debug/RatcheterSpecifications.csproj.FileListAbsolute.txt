@@ -10,3 +10,15 @@ C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\obj\D
 C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\obj\Debug\RatcheterSpecifications.pdb
 C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\bin\Debug\Ratcheter.dll
 C:\priv_project\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\bin\Debug\Ratcheter.pdb
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\bin\Debug\RatcheterSpecifications.dll.config
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\bin\Debug\RatcheterSpecifications.dll
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\bin\Debug\RatcheterSpecifications.pdb
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\bin\Debug\nunit.framework.dll
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\bin\Debug\Ratcheter.dll
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\bin\Debug\Rhino.Mocks.dll
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\bin\Debug\Ratcheter.pdb
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\bin\Debug\nunit.framework.xml
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\obj\Debug\RatcheterSpecifications.dll
+C:\Users\ostenp\RatcheterTask\codebase\Lionfish.Productivity.MsBuildTools\RatcheterSpecifications\obj\Debug\RatcheterSpecifications.pdb
