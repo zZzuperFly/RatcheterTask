@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Projects>
+  <Project>
+    <Name>project 1</Name>
+    <Parameters>
+      <Parameter>
+        <Name>complexity</Name>
+        <Value>11</Value>
+        <Ratchet>0</Ratchet>
+        <Warning>0</Warning>
+        <Direction>towardsZero</Direction>
+       </Parameter>
+      <Parameter>
+        <Name>duplication</Name>
+        <Value>1</Value>
+        <Ratchet>0</Ratchet>
+        <Warning>0</Warning>
+        <Direction>towardsZero</Direction>
+      </Parameter>  
+      <Parameter>
+        <Name>futurability</Name>
+        <Value>10</Value>
+        <Ratchet>10</Ratchet>
+        <Warning>2</Warning>
+        <Direction>towardsHundred</Direction>
+       </Parameter>
+    </Parameters>
+  </Project>
+  
+  <Project>
+    <Name>porject2</Name>
+    <Parameters>
+      <Parameter>
+        <Name>par1</Name>
+        <Value>1</Value>
+        <Ratchet>0</Ratchet>
+        <Warning>0</Warning>
+        <Direction>towardszero</Direction>
+      </Parameter>
+    </Parameters>
+  </Project>
+  <Project>
+    <Name>projact 3</Name>
+    <Parameters>
+      <Parameter>
+        <Name>par12</Name>
+        <Value>100</Value>
+        <Ratchet>10</Ratchet>
+        <Warning>20</Warning>
+        <Direction>towardszerO</Direction>
+      </Parameter>
+    </Parameters>
+  </Project>
+</Projects>

@@ -4,6 +4,7 @@
 // copyright SIS
 
 using System;
+using System.Collections.Generic;
 using Microsoft.Build.Framework;
 using Microsoft.Build.Utilities;
 
@@ -48,7 +49,7 @@ namespace Ratcheter
         private string _targetValue;
         private string _ratchetValue;
         private string _warningValue;
-        private string  _inputType;
+        private string _inputType;
         private IXmlHandler _myXmlHandler;
         private string _parameterName;
         private string _verifyParameterName;
@@ -100,7 +101,33 @@ namespace Ratcheter
             set { _verifyParameterName = value; }
         }
 
-        internal  ILogProxy MyLogger
+        private string _targetFilePath;
+
+        public string TargetFilePath
+        {
+            get { return _targetFilePath; }
+            set { _targetFilePath = value; }
+        }
+
+        private string _currentFilePath;
+
+        public string CurrentFilePath
+        {
+            get { return _currentFilePath; }
+            set { _currentFilePath = value; }
+        }
+
+        private string _resultFilePath;
+
+        public string ResultFilePath
+        {
+            get { return _resultFilePath; }
+            set { _resultFilePath = value; }
+        }
+
+
+
+        internal ILogProxy MyLogger
         {
             get
             {
@@ -116,24 +143,24 @@ namespace Ratcheter
 
         internal RatchetingDirections RatchetingDirection
         {
-            get { return (RatchetingDirections) Enum.Parse(typeof (RatchetingDirections), _direction, true); }
+            get { return (RatchetingDirections)Enum.Parse(typeof(RatchetingDirections), _direction, true); }
         }
 
-        internal  InputTypes MyInputType
+        internal InputTypes MyInputType
         {
-            get { return (InputTypes) Enum.Parse(typeof (InputTypes), _inputType, true); }
+            get { return (InputTypes)Enum.Parse(typeof(InputTypes), _inputType, true); }
         }
 
         internal int MyRatchetValue
         {
-            get { return CheckNumericInputs(_ratchetValue , "RatchetValue"); }
+            get { return CheckNumericInputs(_ratchetValue, "RatchetValue"); }
         }
 
         internal int MyTargetValue
         {
             get
             {
-                return CheckNumericInputs(_targetValue , "TargetValue");
+                return CheckNumericInputs(_targetValue, "TargetValue");
             }
         }
 
@@ -147,8 +174,9 @@ namespace Ratcheter
 
         internal int MyWarningValue
         {
-            get {
-                return CheckNumericInputs(_warningValue ,"WarningValue");
+            get
+            {
+                return CheckNumericInputs(_warningValue, "WarningValue");
             }
         }
 
@@ -168,7 +196,7 @@ namespace Ratcheter
         }
 
 
-        private int CheckNumericInputs(string input,  string propertyName)
+        private int CheckNumericInputs(string input, string propertyName)
         {
             int result = 0;
             if (string.IsNullOrEmpty(input))
@@ -181,7 +209,7 @@ namespace Ratcheter
             }
             else
             {
-                MyLogger.LogThis(MessageImportance.High, string.Format("{0}: incorrect input, numeric expected",propertyName ));
+                MyLogger.LogThis(MessageImportance.High, string.Format("{0}: incorrect input, numeric expected", propertyName));
             }
             return result;
         }
@@ -191,18 +219,29 @@ namespace Ratcheter
             MyLogger.LogThis(MessageImportance.Low, "ratchet: started!");
 
             //verify properties
-            var verifyer = new Verifyer(MyLogger  );
-            bool result = false ;
+            var verifyer = new Verifyer(MyLogger);
+            bool result = false;
             switch (MyInputType)
             {
                 case InputTypes.Direct:
                     Parameter parameter = CreateParameter();
                     VerifyerParameter verifyerParameter = CreateVerifyParameter();
-                    result = verifyer.CheckDirectInput(parameter,verifyerParameter );
+                    result = verifyer.CheckDirectInput(parameter, verifyerParameter);
                     break;
                 case InputTypes.DirectVsFile:
-                    var validateXML = new XmlValidator(MyLogger);
-                    //validateXML.ValidateXml()
+                    //todo: enable when xmlhandler is done, and write a integrationtest
+                    //var validateXML = new XmlValidator(MyLogger);
+                    //if (!validateXML.ValidateXml(TargetFilePath, @"..\..\..\Ratcheter\files\testFile.xsd"))
+                    //{
+                    //    return false;
+                    //}
+                    //Parameter directParameter = CreateParameter();
+                    //List<VerifyerParameter> list = MyXmlHandler.ReadVerifyerParametersFromFile(TargetFilePath);
+                    //List<OutputParameter> outPutList = (List<OutputParameter>)verifyer.CheckDirectVsParameterList(directParameter, list);
+                    //MyXmlHandler.WriteOutputParametersToFile(ResultFilePath, outPutList);
+                    //var t = outPutList.Find(x => x.IsOk == false);
+                    //if (t != null)
+                    //    return false;
                     break;
                 case InputTypes.FileVsFile:
                     break;
@@ -220,7 +259,7 @@ namespace Ratcheter
         private VerifyerParameter CreateVerifyParameter()
         {
             //verify all necessary input
-            return new VerifyerParameter(VerifyParameterName , MyTargetValue, MyRatchetValue, MyWarningValue,RatchetingDirection );
+            return new VerifyerParameter(VerifyParameterName, MyTargetValue, MyRatchetValue, MyWarningValue, RatchetingDirection);
         }
 
         private Parameter CreateParameter()

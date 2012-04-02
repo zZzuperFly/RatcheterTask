@@ -52,6 +52,7 @@
         public int TargetValue
         {
             get { return _targetValue; }
+            set { _targetValue = value; }
         }
 
         public int RatchetValue

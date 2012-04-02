@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Projects">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element  maxOccurs="unbounded"  name="Project">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" />
+              <xs:element  name="Parameters">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element  maxOccurs="unbounded"  name="Parameter">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Name" />
+                          <xs:element name="Value" />
+                          <xs:element name="Ratchet"/>
+                          <xs:element name ="Warning" />
+                          <xs:element name="Direction"  />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
